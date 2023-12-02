@@ -1,0 +1,16 @@
+database_name: Google Sheets
+sqlalchemy_uri: gsheets://
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  engine_params:
+    catalog:
+      Goa Trip Data: https://docs.google.com/spreadsheets/d/165jWmvvzkDkvpIpiWV9Z00MgkU5pCbOB/edit?usp=sharing&ouid=108434344886631082092&rtpof=true&sd=true
+      Data: https://docs.google.com/spreadsheets/d/165jWmvvzkDkvpIpiWV9Z00MgkU5pCbOB/edit?usp=sharing&ouid=108434344886631082092&rtpof=true&sd=true
+uuid: 328e875d-9430-4fa8-ab8a-69f786148ced
+version: 1.0.0

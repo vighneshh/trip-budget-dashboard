@@ -1,0 +1,66 @@
+slice_name: Total Cost as per each day stayed in Goa
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_area
+params:
+  datasource: 21__table
+  viz_type: echarts_area
+  slice_id: 82
+  x_axis: Date
+  time_grain_sqla: P1D
+  x_axis_sort_asc: true
+  x_axis_sort_series: name
+  x_axis_sort_series_ascending: true
+  metrics:
+  - Total Cost
+  groupby: []
+  adhoc_filters: []
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title: Days stayed in Goa
+  x_axis_title_margin: 15
+  y_axis_title: Total Cost
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: bnbColors
+  seriesType: smooth
+  opacity: 0.3
+  show_value: true
+  only_total: true
+  markerSize: 6
+  zoomable: false
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',d'
+  currency_format:
+    symbol: INR
+    symbolPosition: prefix
+  logAxis: false
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+query_context: '{"datasource":{"id":21,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1D","columnType":"BASE_AXIS","sqlExpression":"Date","label":"Date","expressionType":"SQL"}],"metrics":["Total
+  Cost"],"orderby":[["Total Cost",false]],"annotation_layers":[],"row_limit":10000,"series_columns":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["Date"],"columns":[],"aggregates":{"Total
+  Cost":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"flatten"}]}],"form_data":{"datasource":"21__table","viz_type":"echarts_area","slice_id":82,"x_axis":"Date","time_grain_sqla":"P1D","x_axis_sort_asc":true,"x_axis_sort_series":"name","x_axis_sort_series_ascending":true,"metrics":["Total
+  Cost"],"groupby":[],"adhoc_filters":[],"order_desc":true,"row_limit":10000,"truncate_metric":true,"show_empty_columns":true,"comparison_type":"values","annotation_layers":[],"forecastPeriods":10,"forecastInterval":0.8,"x_axis_title":"Days
+  stayed in Goa","x_axis_title_margin":15,"y_axis_title":"Total Cost","y_axis_title_margin":15,"y_axis_title_position":"Left","sort_series_type":"sum","color_scheme":"bnbColors","seriesType":"smooth","opacity":0.3,"show_value":true,"only_total":true,"markerSize":6,"zoomable":false,"show_legend":true,"legendType":"scroll","legendOrientation":"top","x_axis_time_format":"smart_date","rich_tooltip":true,"tooltipSortByMetric":false,"tooltipTimeFormat":"smart_date","y_axis_format":",d","currency_format":{"symbol":"INR","symbolPosition":"prefix"},"logAxis":false,"y_axis_bounds":[null,null],"extra_form_data":{},"dashboards":[8],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 5e555c96-ac75-47fb-b9ec-16cd13208b3f
+version: 1.0.0
+dataset_uuid: 38b186d8-301a-4008-805e-8c27271eaf5c
